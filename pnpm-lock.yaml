@@ -8,6 +8,7 @@ specifiers:
   '@vitejs/plugin-react': ^3.1.0
   eslint: ^8.36.0
   phosphor-react: ^1.4.1
+  prettier-plugin-prisma: ^4.12.0
   react: ^18.2.0
   react-dom: ^18.2.0
   styled-components: ^5.3.9
@@ -27,6 +28,7 @@ devDependencies:
   '@types/react-dom': 18.0.11
   '@vitejs/plugin-react': 3.1.0_vite@4.2.1
   eslint: 8.37.0
+  prettier-plugin-prisma: 4.12.0
   typescript: 4.9.5
   vite: 4.2.1
 
@@ -604,6 +606,10 @@ packages:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.15.0
+    dev: true
+
+  /@prisma/prisma-fmt-wasm/4.12.0-67.659ef412370fa3b41cd7bf6e94587c1dfb7f67e7:
+    resolution: {integrity: sha512-jh9ajkGl3Lw9uTKEwlNBSh79a1v6C1JducqxakgkQyLev6kG1xxkuc2rDGrIDxUdpCOuuPRjuSCHhjnv7qLLgQ==}
     dev: true
 
   /@rocketseat/eslint-config/1.2.0_ip5up2nocltd47wbnuyybe5dxu:
@@ -2408,6 +2414,15 @@ packages:
     engines: {node: '>=6.0.0'}
     dependencies:
       fast-diff: 1.2.0
+    dev: true
+
+  /prettier-plugin-prisma/4.12.0:
+    resolution: {integrity: sha512-5wb4B+9UfJEwp+e5amuOINh23yCjjaEUXDrIzbvFWFHUx2SmbVHdyd9VsRo9VNP34gqVdLBaltyTXV5NCAaAUA==}
+    engines: {node: '>=14', npm: '>=8'}
+    peerDependencies:
+      prettier: '>=2'
+    dependencies:
+      '@prisma/prisma-fmt-wasm': 4.12.0-67.659ef412370fa3b41cd7bf6e94587c1dfb7f67e7
     dev: true
 
   /prettier/2.8.7:

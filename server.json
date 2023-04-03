@@ -15,6 +15,14 @@
             "category": "Aluguel",
             "price": 5000,
             "createdAt": "2023-03-30T17:39:04.355Z"
+        },
+        {
+            "id": 3,
+            "description": "Mercado",
+            "type": "outcome",
+            "category": "Venda",
+            "price": 8000,
+            "createdAt": "2023-03-30T17:39:04.355Z"
         }
     ]
 }

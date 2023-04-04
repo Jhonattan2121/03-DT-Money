@@ -12,6 +12,10 @@ pnpm install @radix-ui/react-radio-group
 
 pnpm i json-server -D
 
+pnpm i @hookform/resolvers
+
+pnpm i axios
+
 
 
 git push -u origin Conexão com a API : proxima brach

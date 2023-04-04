@@ -16,6 +16,6 @@ pnpm i @hookform/resolvers
 
 pnpm i axios
 
-
+pnpm i eslint @rocketseat/eslint-config -D
 
 git push -u origin Conexão com a API : proxima brach

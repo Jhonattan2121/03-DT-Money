@@ -18,4 +18,7 @@ pnpm i axios
 
 pnpm i eslint @rocketseat/eslint-config -D
 
+pnpm i use-context-selector scheduler
+npx tsc --noEmit
+
 git push -u origin Conexão com a API : proxima brach

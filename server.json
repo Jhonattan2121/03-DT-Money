@@ -1,5 +1,20 @@
 {
   "transactions": [
-    
+    {
+      "description": "DESENVOLVIMENTO ",
+      "price": 1500,
+      "category": "Aplicativo",
+      "type": "income",
+      "createdAt": "2023-04-05T20:26:40.843Z",
+      "id": 1
+    },
+    {
+      "description": "Banana",
+      "price": 500,
+      "category": "Venda",
+      "type": "outcome",
+      "createdAt": "2023-04-05T20:26:59.739Z",
+      "id": 2
+    }
   ]
 }
